@@ -4,7 +4,7 @@
 <h3 align="center">Un amante de la tecnología, programación, y cloud</h3>
 <img align="right" style="border-radius: 45px 0.1px 45px 0.1px;" alt="Coding" width="200" height="200" src="https://avatars.githubusercontent.com/u/22179376?v=4">
 
-- 🔭Actualmente trabajo este proyecto: [SROS commands](https://github.com/Tapia641/sros-commands-atp)
+- 🔭Actualmente trabajo este proyecto: [NodeJS and MySQL](https://github.com/Tapia641/sample-mysql-node)
 
 - 🌱 Actualmente estoy aprendiendo: **Docker Compose**
 
