@@ -1,4 +1,3 @@
-[![MasterHead](https://github.com/Tapia641/tapia641/blob/main/banner.jpg)](https://github.com/Tapia641)
 
 <h1 align="center">Hola! 👋, Mi nombre es Luis Tapia</h1>
 <h3 align="center">Un amante de la tecnología, programación, y cloud</h3>
