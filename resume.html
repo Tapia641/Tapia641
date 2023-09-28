@@ -43,68 +43,158 @@
 <!--MAIN SECTION 👁️ -->
 <main>
 
-    <header class="py-5">
-        <div class="container px-5 pb-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-xxl-5">
-
-                    <!-- Header text content-->
-                    <div class="text-center text-xxl-start">
-
-                        <div class="badge bg-gradient-primary-to-secondary text-black-50 mb-4">
-                            <div class="text-uppercase">Automation, backend and network engineer</div>
-                        </div>
-
-                        <div class="fs-3 fw-light text-muted">I can help your company as a</div>
-
-                        <h1 class="display-3 fw-bolder mb-5"><span
-                                class="text-gradient d-inline">Software Developer</span>
-                        </h1>
-
-                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                            <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
-                               href="resume.html">Resume</a>
-                            <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a>
-                        </div>
-
+    <div class="container px-5 my-5">
+        <div class="text-center mb-5">
+            <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
+        </div>
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-11 col-xl-9 col-xxl-8">
+                <!-- Experience Section-->
+                <section>
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h2 class="text-primary fw-bolder mb-0">Experience</h2>
+                        <!-- Download resume button-->
+                        <!-- Note: Set the link href target to a PDF file within your project-->
+                        <a class="btn btn-primary px-4 py-3" id="downloadButton" href="#!">
+                            <div class="d-inline-block bi bi-download me-2"></div>
+                            Download Resume
+                        </a>
                     </div>
-
-                </div>
-
-                <div class="col-xxl-7">
-                    <!-- Header profile picture-->
-                    <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                        <div class="profile bg-gradient-primary-to-secondary">
-                            <img class="profile-img" src="assets/brand/bootstrap-logo.svg" alt="...">
+                    <!-- Experience Card 1-->
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-5">
+                            <div class="row align-items-center gx-5">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="bg-light p-4 rounded-4">
+                                        <div class="text-primary fw-bolder mb-2">2021 - 2023</div>
+                                        <div class="small fw-bolder">Network Automation && Support Engineer L1</div>
+                                        <div class="small text-muted">Nokia Operations de Mexico S.A de C.V</div>
+                                        <div class="small text-muted">Naucalpan, EDO MEX.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8"><div>I have hands-on experience with software defined by networking, particularly VSC and  VNS. I've deployed VSD, Elasticsearch, and Grafana and worked on Telco Cloud projects for Orocom Peru, Claro Argentina, and Claro Colombia.  I automated Claro Colombia's data center deployment using Ansible, streamlining the  process and ensuring consistency across all centers.</div></div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <!-- Experience Card 2-->
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-5">
+                            <div class="row align-items-center gx-5">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="bg-light p-4 rounded-4">
+                                        <div class="text-primary fw-bolder mb-2">2020 - 2021</div>
+                                        <div class="small fw-bolder">Software Developer I && II</div>
+                                        <div class="small text-muted">Sec360 and WhiteSecurity</div>
+                                        <div class="small text-muted">Miguel Hidalgo, CDMX.</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8"><div>I have created a SaaS platform that allows remote auditing of Linux servers using
+                                    customized scripts. I have also incorporated a seed synchronization feature that ensures
+                                    consistency across all systems. Once the audit is complete, the platform generates a
+                                    comprehensive PDF report that contains all relevant information, everything with Spring Boot.</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Education Section-->
+                <section>
+                    <h2 class="text-primary fw-bolder mb-4">Education</h2>
+                    <!-- Education Card 1-->
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-5">
+                            <div class="row align-items-center gx-5">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="bg-light p-4 rounded-4">
+                                        <div class="text-secondary fw-bolder mb-2">2016 - 2022</div>
+                                        <div class="mb-2">
+                                            <div class="small fw-bolder">Escuela Superior de Cómputo - IPN</div>
+                                            <div class="small text-muted">Zacatenco, CDMX</div>
+                                        </div>
+                                        <div class="fst-italic">
+                                            <div class="small text-muted">Ingeniería en Sistemas Computacionales</div>
+<!--                                            <div class="small text-muted">Web Development</div>-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8"><div>This degree equips students with the knowledge and skills to design, develop, and maintain computer systems, software, and networks, preparing them for a career in technology.</div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Education Card 2-->
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-5">
+                            <div class="row align-items-center gx-5">
+                                <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                    <div class="bg-light p-4 rounded-4">
+                                        <div class="text-secondary fw-bolder mb-2">2023</div>
+                                        <div class="mb-2">
+                                            <div class="small fw-bolder">Google Cloud Computing Foundations -</div>
+                                            <div class="small text-muted">Badges</div>
+                                        </div>
+<!--                                        <div class="fst-italic">-->
+                                            <a class="small btn btn-info" href="https://www.cloudskillsboost.google/public_profiles/bf39d5c0-7b15-47d2-82ea-389cdde544b3">More Info</a>
+<!--                                            <div class="small text-muted">Computer Science</div>-->
+<!--                                        </div>-->
+                                    </div>
+                                </div>
+                                <div class="col-lg-8"><div>Google Cloud badges are digital credentials that certify a user's expertise in Google Cloud technologies and services. These badges showcase proficiency in areas such as cloud architecture, data analysis, machine learning, and more. They help individuals and organizations validate their Google Cloud skills and capabilities, boosting credibility in the industry.</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Divider-->
+                <div class="pb-5"></div>
+                <!-- Skills Section-->
+                <section>
+                    <!-- Skillset Card-->
+                    <div class="card shadow border-0 rounded-4 mb-5">
+                        <div class="card-body p-5">
+                            <!-- Professional skills list-->
+                            <div class="mb-5">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
+                                    <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional Skills</span></h3>
+                                </div>
+                                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">API Development</div></div>
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Java Programming</div></div>
+                                    <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development</div></div>
+                                </div>
+                                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Networking</div></div>
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Version Control</div></div>
+                                    <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Linux Administrator</div></div>
+                                </div>
+                                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Infrastructure as Code (IaC)</div></div>
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Documentation</div></div>
+                                    <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Cloud Platforms</div></div>
+                                </div>
+                            </div>
+                            <!-- Languages list-->
+                            <div class="mb-0">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
+                                    <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Languages</span></h3>
+                                </div>
+                                <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
+                                    <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
+                                </div>
+                                <div class="row row-cols-1 row-cols-md-3">
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
+                                    <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Java</div></div>
+                                    <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-    </header>
+    </div>
 
-    <section class="bg-light py-5">
-        <div class="container px-5">
-            <div class="row gx-5 justify-content-center">
-                <div class="col-xxl-8">
-                    <div class="text-center my-5">
-                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
-                        <p class="lead fw-light mb-4">My name is Luis Enrique Tapia and I help companies grow.</p>
-                        <p class="text-muted">I am an Automation Developer with expertise in Ansible and Python. In my
-                            role, I design, implement, and maintain automation solutions that streamline IT operations.
-                            I create Ansible playbooks and Python scripts to automate repetitive tasks, configure
-                            infrastructure, and orchestrate complex workflows. Collaborating with cross-functional
-                            teams, I ensure that automation solutions improve efficiency and reduce manual intervention,
-                            aligning with the organization's infrastructure and application deployment goals.</p>
-                        <div class="d-flex justify-content-center fs-2 gap-4">
-                            <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                            <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 </main>
 
@@ -117,7 +207,24 @@
 
 <!-- BOOTSTRAP CORE CSS -->
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.getElementById("downloadButton").addEventListener("click", function() {
+        // Create an anchor element
+        var a = document.createElement("a");
+        a.href = "assets/brand/Luis Tapia - 2023 - Sep.pdf"; // Set the file path
+        a.download = "Resume_Luis_Tapia.pdf"; // Set the filename
+        a.style.display = "none"; // Hide the anchor element
 
+        // Append the anchor to the body
+        document.body.appendChild(a);
+
+        // Trigger a click event on the anchor
+        a.click();
+
+        // Clean up: remove the anchor from the body
+        document.body.removeChild(a);
+    });
+</script>
 
 </body>
 </html>
