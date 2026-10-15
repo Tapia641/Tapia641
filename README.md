@@ -10,7 +10,7 @@
   <a href="https://github.com/Tapia641">GitHub</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/hetl-tapia/">LinkedIn</a> &nbsp;·&nbsp;
   <!-- EDIT: tu correo -->
-  <a href="mailto:correo@dominio.com">Email</a>
+  <a href="mailto:tapia641@gmail.com">Email</a>
 </p>
 
 <br>
